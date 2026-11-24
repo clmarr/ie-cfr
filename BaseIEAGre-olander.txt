@@ -10,6 +10,8 @@ $ h3 is labial in some way
 $ no laryngeals are anterior, all are obstruent
 $ h2 and h3 are back, not front
 $ h2 is not high, not labial in any way
+$ per tradition, Proto-Greek palatalization outcomes are long, even though this is implicit in 
+$ writing i̯ and u̯ as j and w to save effort 
 
 $ C1 laryngeal vowel coloring 
 [+syl,-hi,-back] > [+back,-front,+round,+lab] / __ [-son,+cont,-ant,+lab]
@@ -36,19 +38,20 @@ $B5	Merger of *Ku̯ with *Kʷ
 [-cont,-ant] [-cons,-syl,+round] > [+lab,+round] ∅
 
 $B6	Loss of laryngeals. Involves lengthening as seen with testing via examples on the website
-    $B6.1 prelaryngeal lengthening
+    $B6.1 prelaryngeal lengthening. Happens to syllabic sonorants too. 
 [+syl] > [+long] / __ [-son,-ant,-syl,hcont,hcons]
     $B6.2 vocalization of laryngeals between asyllabics, or initial before an asyllabic
         $ based on testing the website, does not occur word finally 
 [-son,+cont,+round] > o / # ((@)* [-syl]) __ [-syl]
 [-son,+back,-hi] > ɑ / # ((@)* [-syl]) __ [-syl]
 [-son,+cont,hcons,hhi] > e / # ((@)* [-syl]) __ [-syl]
-
-    $B6.3 actual laryngeal loss
+    $B6.3 emitted vowel is lengthened if after a former syllabic sonorant, which loses its length and syllabicity -- based on website
+[+syl,+cons,+long] [+syl] > [-syl,-long] [+long] / __ [-son,+cont,-ant] 
+    $B6.4 actual laryngeal loss
 [-son,-ant,-syl,hcont,hcons] > ∅
 
 $B7	Early vowel contractions and rise of tones
-    $TODO how to code this?
+    $TODO formulate
 
 $B8	Metathesis of *TK to *KT. 
     $Based on investigation, it appears that of plain-coronal sequences only kt and dhgh metathesize on his website tho.
@@ -81,48 +84,153 @@ $B15	βουκόλος law
 [-cont,+back] > [-lab,-round] / __ [-cons,+hi,+round]
 
 $B16	Change of *s to *h
-    $ happens except before a consonant or word-finally -- so, before a vocoid
-s > h / # ((@)* [-cons]) __ [-cons]
+    $ happens except before an obstruent consonant or word-finally
+    $ confirmed website is having it occur after sonorant consonants
+s > h / # ((@)* [+son]) __ [-cons]
 
 $B17	Voicing and aspiration assimilation of stops. Regressive.
     $ website doesn't have dhka become tka but rather thka. Assumed unintional.
 [-cont] > [avoi,bsg] / __ [-cont,avoi,bsg]
 
 $B18	Assibilation of dental stops before glides
+    $dya goes to dza, same outcome as second/"main" palatalization -- treat as d͡ʒ, as it is +front
     $based on website, twa > tsa too, but not dwa or thwa? 
 [-syl,+hi,+round,-cons] > [-round,-lab,+front,-back] / t __ 
-[-cont,+cor] [-syl,-cons,+front] > [+delrel,+strid,-sg] ∅
+[-cont,+cor,dvoi] [-syl,-cons,+front] > [+delrel,+strid,-sg,dfront,-dant,+long] ∅
 
 $B19	Insertion of epenthetic consonants
+    $ testing website, involves ml mr nr > mbl mbr ndr but not nl
+{m l;m r;n r} > {m b l;m b r;n d r}
+
 $B20	Osthoff’s law
-$B21	Loss of word-final stops
+[+syl] > [-long] / __ [-syl,+son] [+cons]
+
+$B21	Loss of word-final stops. Based on website, can apply infinitely. Seems necesary at least twice
+[-cont] > ∅ / __ #
+[-cont] > ∅ / __ #
+
 $B22	Grassmann’s law
+[-cont] > [-sg] / __ ([-syl])* [+syl] ([-syl])* [-cont,+sg]
+
 $B23	Main palatalisation
+    $B23.1 py > pt. Ohter sources also have phy > pt but the website does not. It also shows -bj- preserved as such.
+[-syl,-cons,+hi,+front] > t / p __
+    $B23.2 -wy- and -hy- (< -sy-) > -yy-
+[-syl,-cons] j > jː
+    $B23.3 palatalization of sonorant consonantals. 
+{r j;l j;m j;n j} > {rʲː;ʎː;ɲː;ɲː}
+    $B23.4 initial jV- has j go to something that ends up as dz; this thing also is combining to make palatal outcomes here. For convenience, treating it here as *ɟ
+j > d͡ʒː / # __ 
+    $B23.5 coronal and dorsal affricating palatalizations
+[-cont,dcor,dant] j > [+front,+delrel,-sg,+long,+strid,+distr,+cor,-ant,-back,-hi] ∅
+    $B23.6 dz/d͡ʒ from B18 (?) and d͡ʒ from this go to zd 
+d͡ʒː > z d
+
 $B24	H-fronting
+    $TODO formulate 
+
 $B25	Loss of *n before *s followed by consonant
+n > ∅ / __ s [+cons]
+
 $B26	Simplification of T₁sT₁ clusters
+    $TODO formulate 
+
 $B27	Insertion of *h before word-initial *u
+∅ > h / # __ [+syl,+hi,+round]
+
 $B28	Change of *dl to *gl
-$B29	Law of limitation: Proto-Greek
+d > ɡ / __ l 
+
+$B29	Law of limitation: Proto-Greek. 
+    $TODO formulate 
+
+
+= Proto-Greek 
+
 $B30	Change of *i̯ to *h
-$B31	Loss of *s between stops
+    $ TODO formulate-- website doesn't seem to simply be doing this. 
+
+$B31	Loss of *s between stops. Website only does this between voiceless stops. 
+    $ B31.a -- website is aspirating stops when they are heteroorganic in this rule. 
+[-cont,-voi,aant,-sg] s [-cont,-voi,-aant,-sg] > [+sg] s [+sg]
+[-cont,-voi,blab,-sg] s [-cont,-voi,-blab,-sg] > [+sg] s [+sg]
+    $ B31.b -- the actual deletion of s
+s > ∅ / [-cont,+sg] __ [-cont,+sg]
+
 $B32	Vocalisation of syllabic liquids
+    $ per website: made stressed if no stressed item in word yet
+[+syl,+cor] ∅ > [-syl] ˈɑ / __ (([-syl])* [-prim])* ([-syl])* #
+[+syl,+cor] ∅ > [-syl] ɑ
+
 $B33	Denasalisation of *ã
+[+syl] > [-nas]
+
 $B34	Assibilation of non-initial *ti tʰi to *si
+[+cor,-voi] > s / @ __ [+syl,+hi,+front]
+
 $B35	Loss of labiovelars
+    $ kw gw khw to t d th before e, and also kwi > ti. Others all to plain labials. 
+[-cont,+lab,+back] > [-lab,-round,-back,-hi,+cor,+ant] / __ [+syl,+front,-hi,-lo]
+kʷ > t / __ [+syl,+front,+hi]
+[-cont,+back] > [-lab,-round]
+
 $B36	Nasalisation of labial stops before nasals
+[+lab,-cont] > m / __ [+nas]
+
 $B37	Assimilation of nasals to a following stop
+    $ based on website this is only n > m tho. 
+n > m / __ [-cont,+lab]
+
 $B38	Loss of non-initial *h
+h > ∅ / @ __
+
 $B39	Elimination of *ln clusters
+n > ∅ / l __
+
+= Proto-Attic-Ionic 
+
 $B40	Late vowel contractions
+    $TODO formulate 
+
 $B41	Loss of word-initial and intervocalic digamma
+        $ based on website -- double gamma ends up as w.  DOES delete after j. -wj- becomes -jj- by this point. -VjwV- preserved. 
+w > ∅ / # ((@)* [-cons]) __ [+syl]
+
 $B42	Depalatalisation of sonorants
+{rʲː;ɲː;ʎː;jː} > {j r;j n;l l;j j}
+
 $B43	Change of affricates to sibilants
+    $website -- applies to ts and t͡ʃ , makes both s initially, -ss- medially
+[+delrel,+cor] > s s / @ __ 
+[+delrel,+cor] > s
+
 $B44	Merger of *ā and *ē in *ɛ̄
+[+long,-round,-hi,+syl] > [+front,-back,-lo,-tense]
+
 $B45	Loss of *n before (secondary and word-final) *s
+    $ website checking -- confirms it is secondary medial AND word-final, secondary or primary. 
+    $B45.a -- lengthening of prior vowel. 
+[+syl] > [+long] / __ n s
+    $B45.b -- actual loss of n
+n > ∅ / __ s
+
 $B46	Loss of postconsonantal digamma
+w > ∅ / [+cons] __ 
+
+$= "Homeric", but that's not really the ancestor of Attic... 
+
 $B47	σωτῆρα law
+    $TODO formulate 
+
 $B48	Shortening of prevocalic vowels
+    $TODO formulate 
+
 $B49	Simplification of ss to s
+s > ∅ / __ s
+
 $B50	Quantitative metathesis
+    $based on website, seems to apply only to ɛ̄a and ɛ̄o. NOT ēa, not ōa. Converts o to ɔ̄, ɛː shortens to [by convention] e. 
+[-tense,+front,+long] [+syl,+back,-hi,alo] > [-long] [+long,atense]
+
 $B51	Psilosis
+h > ∅
