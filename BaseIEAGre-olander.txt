@@ -1,0 +1,128 @@
+
+$ baseline PIE to Ancient Attic Greek, based on Thomas Olander's cascade on https://sproghistorie.dk/greek-sound-changes/index.php
+$ Baseline rules numbered B1, B2... etc.
+$ "pre-baseline" rules numbered C1, C2...these are lumped into 'stage zero', "Proto-Indo-European form" in Olander's javascript interface
+$ written to maximize neutrality about phonetics of diaphonemes, Proto-Indo-European reconstruction flavor, etc.
+
+$ ASSUMPTIONS: 
+$ /a/ treated as back. 
+$ h3 is labial in some way
+$ no laryngeals are anterior, all are obstruent
+$ h2 and h3 are back, not front
+$ h2 is not high, not labial in any way
+
+$ C1 laryngeal vowel coloring 
+[+syl,-hi,-back] > [+back,-front,+round,+lab] / __ [-son,+cont,-ant,+lab]
+[+syl,-hi,-back] > [+back,-front,+round,+lab] / [-son,+cont,-ant,+lab] __
+[+syl,-hi,-back] > [+back,-front,+lo] / __ [-son,-ant,-hi]
+[+syl,-hi,-back] > [+back,-front,+lo] / [-son,-ant,-hi] __ 
+
+= Late Proto-Indo-European
+
+$B1	Change of word-final *ms to *ns
+m > n / __ s #
+
+$B2	Loss of word-final *i̯ after a long vowel
+[+hi,+front,-syl] > ∅ / [+syl,+long] __
+
+$B3	Change of dental stop to *s before dental stop
+[+cor,-cont] > s / __ [+cor,-cont]
+
+$B4	Merger of *K̑ with *K. 
+$Coding decision: effectively transforms any non-labialized dorsal stops to velars. 
+[-cont,-ant,+cons,-lab] > [+back,-front,+hi]
+
+$B5	Merger of *Ku̯ with *Kʷ
+[-cont,-ant] [-cons,-syl,+round] > [+lab,+round] ∅
+
+$B6	Loss of laryngeals. Involves lengthening as seen with testing via examples on the website
+    $B6.1 prelaryngeal lengthening
+[+syl] > [+long] / __ [-son,-ant,-syl,hcont,hcons]
+    $B6.2 vocalization of laryngeals between asyllabics, or initial before an asyllabic
+        $ based on testing the website, does not occur word finally 
+[-son,+cont,+round] > o / # ((@)* [-syl]) __ [-syl]
+[-son,+back,-hi] > ɑ / # ((@)* [-syl]) __ [-syl]
+[-son,+cont,hcons,hhi] > e / # ((@)* [-syl]) __ [-syl]
+
+    $B6.3 actual laryngeal loss
+[-son,-ant,-syl,hcont,hcons] > ∅
+
+$B7	Early vowel contractions and rise of tones
+    $TODO how to code this?
+
+$B8	Metathesis of *TK to *KT. 
+    $Based on investigation, it appears that of plain-coronal sequences only kt and dhgh metathesize on his website tho.
+    $ it also appears that labiovelars are affected, becoming plain velars -- tkwe > kte
+[-cont,+cor] [-cont,+back] > [-cor,-ant,+back,+hi] [-back,-round,-hi,+cor,+ant]
+
+$B9	Vowel epenthesis before word-initial *r
+∅ > e / # __ r
+
+$B10	Devoicing of voiced aspirates
+[+sg] > [-voi]
+
+$B11	Vocalisation of syllabic sonorants before vowel or *i̯
+    $ upon investigation, the website applies this before w/u̯ too
+∅ [+cons,+syl] > a [-syl] / __ [-cons,+son]
+
+$B12	Vocalisation of syllabic nasals. Based on website, produces ã. Here, this document uses ɑ̃. 
+[+nas,+syl] > [-cor,-ant,-lab,+lo,+back,+long]
+
+$B13	Change of word-final *m to *n
+    $ note: could be combined with B1?
+m > n / __ #
+
+$B14	Cowgill’s law
+    $based on testing website, doesn't treat u̯/w as the labial conditioning here -- must be consonantal
+[+syl,+round] > [+hi] / [+cons,+lab] __ [+cons,+son]
+[+syl,+round] > [+hi] / [+cons,+son] __ [+cons,+lab]
+
+$B15	βουκόλος law
+[-cont,+back] > [-lab,-round] / __ [-cons,+hi,+round]
+
+$B16	Change of *s to *h
+    $ happens except before a consonant or word-finally -- so, before a vocoid
+s > h / # ((@)* [-cons]) __ [-cons]
+
+$B17	Voicing and aspiration assimilation of stops. Regressive.
+    $ website doesn't have dhka become tka but rather thka. Assumed unintional.
+[-cont] > [avoi,bsg] / __ [-cont,avoi,bsg]
+
+$B18	Assibilation of dental stops before glides
+    $based on website, twa > tsa too, but not dwa or thwa? 
+[-syl,+hi,+round,-cons] > [-round,-lab,+front,-back] / t __ 
+[-cont,+cor] [-syl,-cons,+front] > [+delrel,+strid,-sg] ∅
+
+$B19	Insertion of epenthetic consonants
+$B20	Osthoff’s law
+$B21	Loss of word-final stops
+$B22	Grassmann’s law
+$B23	Main palatalisation
+$B24	H-fronting
+$B25	Loss of *n before *s followed by consonant
+$B26	Simplification of T₁sT₁ clusters
+$B27	Insertion of *h before word-initial *u
+$B28	Change of *dl to *gl
+$B29	Law of limitation: Proto-Greek
+$B30	Change of *i̯ to *h
+$B31	Loss of *s between stops
+$B32	Vocalisation of syllabic liquids
+$B33	Denasalisation of *ã
+$B34	Assibilation of non-initial *ti tʰi to *si
+$B35	Loss of labiovelars
+$B36	Nasalisation of labial stops before nasals
+$B37	Assimilation of nasals to a following stop
+$B38	Loss of non-initial *h
+$B39	Elimination of *ln clusters
+$B40	Late vowel contractions
+$B41	Loss of word-initial and intervocalic digamma
+$B42	Depalatalisation of sonorants
+$B43	Change of affricates to sibilants
+$B44	Merger of *ā and *ē in *ɛ̄
+$B45	Loss of *n before (secondary and word-final) *s
+$B46	Loss of postconsonantal digamma
+$B47	σωτῆρα law
+$B48	Shortening of prevocalic vowels
+$B49	Simplification of ss to s
+$B50	Quantitative metathesis
+$B51	Psilosis
