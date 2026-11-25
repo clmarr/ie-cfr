@@ -4,6 +4,9 @@ $ Baseline rules numbered B1, B2... etc.
 $ "pre-baseline" rules numbered C1, C2...these are lumped into 'stage zero', "Proto-Indo-European form" in Olander's javascript interface
 $ written to maximize neutrality about phonetics of diaphonemes, Proto-Indo-European reconstruction flavor, etc.
 
+$ ambiguous rules filled in by consulting Bubenik 2018 "40. The phonology of Greek" in Klein, Fritz and Joseph's Indo-European handbook.
+    $ rules per Bubenik section, iterated from a, b, etc onward alphabetically. 
+
 $ ASSUMPTIONS: 
 $ /a/ treated as back. 
 $ h3 is labial in some way
@@ -18,6 +21,7 @@ $ C1 laryngeal vowel coloring
 [+syl,-hi,-back] > [+back,-front,+round,+lab] / [-son,+cont,-ant,+lab] __
 [+syl,-hi,-back] > [+back,-front,+lo] / __ [-son,-ant,-hi]
 [+syl,-hi,-back] > [+back,-front,+lo] / [-son,-ant,-hi] __ 
+
 
 = Late Proto-Indo-European
 
@@ -80,7 +84,8 @@ $B14	Cowgill’s law
 [+syl,+round] > [+hi] / [+cons,+lab] __ [+cons,+son]
 [+syl,+round] > [+hi] / [+cons,+son] __ [+cons,+lab]
 
-$B15	βουκόλος law
+$B15	βουκόλος law. Present in Indo-European itself per Bubenik 1.1a "Adjacent to u labiovelars had undergone dissimilation to plain velars already
+in Proto-Indo-European."
 [-cont,+back] > [-lab,-round] / __ [-cons,+hi,+round]
 
 $B16	Change of *s to *h

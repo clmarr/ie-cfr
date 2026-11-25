@@ -1,0 +1,19 @@
+=Proto-Indo-European,Proto-Greek,Attic Greek
+
+$ PIE to Attic Greek lexicon, small set, only words used as examples by Olander on https://sproghistorie.dk/greek-sound-changes/index.php
+
+$ conventions: 
+$ h1 h2 h3 as x χ xʷ
+$ syllabic resonants m̥ n̥ l̥ r̥ as m̩ n̩ l̩ r̩
+$ front dorsals as palatal, labiodorsals as labiovelar, back dorsals as uvular, but cascade should be able to treat them as velar
+    $ annotating in uvular theory here for maximum differentiation, e.g. avoiding potential data loss. 
+$ Proto-Greek reflex of merged *ē and *ā, whence Doric ā and Attic ɛ̄, as *æː 
+$ "CL" = Classical Latin, "OCS" = Old Church Slavonic, "APA" = Archaic Proto-Albanian, "MPA" = Middle Proto-Albanian, etc. 
+
+χ e ɟ r ˈo m s , ɑ ɡ r ˈo n s , ɑ ɡ r ˈoː s $ἀγρο̄́ς
+χ u ɢ s o n t m̩ , ˈɑ w k s o n t ɑ̃ , ˈɑ w k s o n t ɑ $αὔξοντα
+χ s t ˈeː r , ɑ s t ˈæː r , ɑ s t ˈɛː r $ἀστήρ
+
+xʷ n̩ bʰ l̩ x ˈo s , o n pʰ ɑ l ˈo s , o m pʰ ɑ l ˈo s $ὀμφαλός
+
+t l̩ χ t ˈo s , 

@@ -2,9 +2,10 @@
 
 $ conventions: 
 $ h1 h2 h3 as x χ xʷ
-$ working under uvular theory for non-data-loss
+$ front dorsals as palatal, labiodorsals as labiovelar, back dorsals as uvular, but cascade should be able to treat them as velar
+    $ annotating in uvular theory here for maximum differentiation, e.g. avoiding potential data loss. 
 $ Proto-Greek reflex of merged *ē and *ā, whence Doric ā and Attic ɛ̄, as *æː 
-$ "CL" = Classical Latin, "APA" = Archaic Proto-Albanian, "MPA" = Middle Proto-Albanian
+$ "CL" = Classical Latin, "OCS" = Old Church Slavonic, "APA" = Archaic Proto-Albanian, "MPA" = Middle Proto-Albanian, etc. 
 
 x ˈeː r e m o s , ˈæː r e m o s , ˈɛː r e m o s , ˈeː r e m o s , , >* , ˈi r e m o s $Mycenaean e-re-mo too. Loaned Lat erēmus, Alb ɛːrɐmu > jerëm. 
 
@@ -15,10 +16,15 @@ q ɑ l w ˈo s , k ɑ l w ˈo s , k ɑ l ˈo s  , k ɑ l ˈo s , k ɑ l ˈo s , 
 ɢ r̩ bʰ ˈo χ , ɡ r ˈɑ pʰ oː , ɡ r ˈɑ pʰ ɔː , ... , ɡ r ˈɑ f o , ɡ r ˈɑ f o , ɡ r ˈɑ f o $write.verb.1sg.pres
 
 ɢʰ e bʰ l̩ x ˈe χ , k e pʰ ɑ l ˈæː , k e pʰ ɑ l ˈɛː , ... , ... , ... , ... $head. Loaned Alb. qefull  "mullet"
+
 χ ˈe ɟ r i o s , ˈɑ ɡ r i o s , ˈɑ ɡ r i o s , >* , >* , >* , ˈa ɣ r i o s $wild. Loaned or cognate to Alb egër etc. 
+χ e ɟ r ˈo m s , ɑ ɡ r ˈo n s , ɑ ɡ r ˈoː s , 
+
 χ e ɡʷ n ˈo s , w ɑ b n ˈo s , ɑ m n ˈo s , ... , ... , ... , ... $lamb. = Lat agnus, Alb enjë, OCS agnẽ etc. 
 χ e w s ˈe r , ɑ w h ˈeː r , ɑː ˈɛː r , ɑː ˈeː r , a ˈi r , a ˈi r , a ˈi r $air, mist, haze. -> Lat āēr, APA aɛ̄rʊ > ajër. 
 χ ˈe w s r χ , ˈɑ w r æː , ... , ... , ... , ... , ... $breeze, sea breeze. aurā = West Greek loan into Attic. Ionic and Epic aurɛ̄. 
+
+xʷ n̩ bʰ l̩ x ˈo s , o n pʰ ɑ l ˈo s , o m pʰ ɑ l ˈo s , 
 
 w ˈe j d o s , w ˈe j d o s , ˈeː d o s , >* , ˈi ð o s , ˈi ð o s , ˈi ð o s $form, image. 
 w ˈo d oː r , h ˈu d oː r , h ˈy d ɔː r , ˈy ð oː r , ˈi ð o r  , ˈi ð o r , ˈi ð o r $water.
