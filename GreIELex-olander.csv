@@ -2,18 +2,89 @@
 
 $ PIE to Attic Greek lexicon, small set, only words used as examples by Olander on https://sproghistorie.dk/greek-sound-changes/index.php
 
-$ conventions: 
+$ conventions:
 $ h1 h2 h3 as x χ xʷ
 $ syllabic resonants m̥ n̥ l̥ r̥ as m̩ n̩ l̩ r̩
 $ front dorsals as palatal, labiodorsals as labiovelar, back dorsals as uvular, but cascade should be able to treat them as velar
-    $ annotating in uvular theory here for maximum differentiation, e.g. avoiding potential data loss. 
-$ Proto-Greek reflex of merged *ē and *ā, whence Doric ā and Attic ɛ̄, as *æː 
-$ "CL" = Classical Latin, "OCS" = Old Church Slavonic, "APA" = Archaic Proto-Albanian, "MPA" = Middle Proto-Albanian, etc. 
+    $ annotating in uvular theory here for maximum differentiation, e.g. avoiding potential data loss.
+$ Proto-Greek reflex of merged *ē and *ā, whence Doric ā and Attic ɛ̄, as *æː
+$ "CL" = Classical Latin, "OCS" = Old Church Slavonic, "APA" = Archaic Proto-Albanian, "MPA" = Middle Proto-Albanian, etc.
+$ Stems Olander gives unaccented are left unaccented.
+$ Proto-Greek affricates are long, as are results of palatalizations.
+c r̩ d ˈi j e χ , k r̩ d ˈi j æː , k r ɑ d ˈi ɛː $κραδίη (Ionic-Attic stage as given by Olander)
 
+ɟ ˈn̩ x t i s , ɡ ˈe n e t i s , ɡ ˈe n e s i s $γένεσις
+ɟ n̩ x t ˈo s , ɡ n æː t ˈo s , ɡ n ɛː t ˈo s $γνητός
+
+ɟʰ w ˈeː r , kʷʰ ˈæː r , tʰ ˈɛː r $θήρ
+
+x j e x q , j æː k , h ɛː k $ἡκ- (stem)
+x ˈe bʰ e r e d , ˈe pʰ e r e , ˈe pʰ e r e $ἔφερε
+x ˈe s m i , h ˈe h m i , h ˈeː m i $ε̄̔͂μι
+x l e w dʰ s o , e l e w t s o , e l e w s o $ἐλευσο- (stem)
+
+j u ɢ ˈo m , z d u ɡ ˈo n , z d u ɡ ˈo n $ζυγόν
+
+q e n t t ˈo s , k e s t ˈo s , k e s t ˈo s $κεστός
+q s ˈe n w o s , k s ˈe n w o s , k s ˈeː n o s $ξε̄͂νος
+q r u bʰ d eː n , k r ˈu b d æː n , k r ˈu b d ɛː n $κρύβδην
+
+χ e ɟ r ˈo e j , ˈɑ ɡ r oː j , ˈɑ ɡ r ɔː j $ἄγρῶι
+χ e ɟ r ˈo o m , ˈɑ ɡ r oː n , ˈɑ ɡ r ɔː n $ἄγρῶν
+χ e ɟ r ˈo m , ɑ ɡ r ˈo n , ɑ ɡ r ˈo n $ἀγρόν
 χ e ɟ r ˈo m s , ɑ ɡ r ˈo n s , ɑ ɡ r ˈoː s $ἀγρο̄́ς
-χ u ɢ s o n t m̩ , ˈɑ w k s o n t ɑ̃ , ˈɑ w k s o n t ɑ $αὔξοντα
-χ s t ˈeː r , ɑ s t ˈæː r , ɑ s t ˈɛː r $ἀστήρ
 
+χ u ɢ s o n t m̩ , ˈɑ w k s o n t ɑ̃ , ˈɑ w k s o n t ɑ $αὔξοντα
+χ ˈe w s oː s , h ˈɑ w h oː s , h ˈe ɔː s $ἕως
+χ w l̩ q s , ˈɑ w l̩ k s , ˈɑ w l ɑ k s $αὔλαξ
+χ s t ˈeː r , ɑ s t ˈæː r , ɑ s t ˈɛː r $ἀστήρ
+χ ˈr̩ t c o s , ˈɑ r k t o s , ˈɑ r k t o s $ἄρκτος
+
+ɡʷ i xʷ w ˈo s , z d oː w ˈo s , z d ɔː ˈo s $ζωός
+ɡʷ m̩ j ˈoː , gʷ ˈɑ ɲː oː , b ˈɑ j n ɔː $βαίνω
+
+xʷ e kʷ j o m χ e j , ˈo t͡ʃː o m ɑ j , ˈo s o m ɑ j $ὄσομαι
+xʷ ˈe kʷ m n̩ , ˈo kʷ m ɑ̃ , ˈo m m ɑ $ὄμμα
 xʷ n̩ bʰ l̩ x ˈo s , o n pʰ ɑ l ˈo s , o m pʰ ɑ l ˈo s $ὀμφαλός
 
-t l̩ χ t ˈo s , 
+ˈu d oː r , h ˈu d oː r , h ˈu d ɔː r $ὕδωρ
+w e s m̩ n ˈo s , h w e h ɑ̃ n ˈo s , h e ɑ n ˈo s $ἑανός
+w ˈe l n oː , w ˈe l n oː , ˈeː l ɔː $ε̄̓́λω
+w ˈɑ n ɑ q t , w ˈɑ n ɑ , ˈɑ n ɑ $ἄνα
+
+bʰ u ɢ ˈe χ , pʰ u ɡ ˈæː , pʰ u ɡ ˈɛː $φυγή
+bʰ ˈe r o m e n o e j , pʰ e r o m ˈe n oː j , pʰ e r o m ˈe n ɔː j $φερομένῳ
+bʰ ˈe r o m e n o s , pʰ e r ˈo m e n o s , pʰ e r ˈo m e n o s $φερόμενος
+
+m ˈe m l̩ xʷ q , m ˈe m b l oː k , m ˈe m b l ɔː k $μεμβλωκ- (stem)
+m ˈe dʰ j o s , m ˈe t͡sː o s , m ˈe s o s $μέσος
+m ˈl̩ xʷ s c oː , b l ˈoː s k oː , b l ˈɔː s k ɔː $βλώσκω
+
+t i xʷ t ˈeː r m̩ , t s oː t ˈæː r ɑ̃ , s ɔː t ˈɛː r ɑ $σωτῆρα
+t j e gʷ o m χ e j , t͡sː ˈe ɡ u m ɑ j , s ˈe ɡ u m ɑ j $σέγυμαι
+t j e ɡʷ n ˈo s , t s e ɡʷ n ˈo s , s e m n ˈo s $σεμνός
+t w ˈr̩ c s , t͡sː r ˈa k s , s r ˈɑ k s $σράξ
+t n̩ χ ˈu s , t ɑ n ˈu s , t ɑ n ˈu s $τανύς
+t l̩ χ t ˈo s , t l æː t ˈo s , t l ɛː t ˈo s $τλητός
+t r ˈe j e s , t r ˈe j e s , t r ˈe e s $τρέες
+
+d xʷ t ˈi s , d ˈo t i s , d ˈo s i s $δόσις
+d l ˈe w q o s , ɡ l ˈe w k o s , ɡ l ˈe w k o s $γλεῦκος
+
+dʰ ˈu ɢ χ t eː r , tʰ u ɡ ˈɑ t æː r , tʰ u ɡ ˈɑ t ɛː r $θυγάτηρ
+
+s ˈe ɟʰ oː , ˈe kʰ oː , ˈe kʰ ɔː $ἔχω
+s e ɟʰ t ˈo s , h e k t ˈo s , h e k t ˈo s $ἑκτός
+s e p t t ˈo s , h e p s t ˈo s , h e pʰ tʰ ˈo s $ἑφθός
+s eː m i , h æː m i , h ɛː m i $ἡμι- (prefix)
+s ˈe m s , h ˈe n s , h ˈeː s $ε̄̔́ς
+s r ˈe w oː , h r ˈe w oː , r ˈe ɔː $ῥέω
+
+n ˈo kʷ t s , n ˈu k t s , n ˈu k s $νύξ
+n ˈe w e χ e s , n ˈe w æː s , n ˈe ɛː s $νέης
+
+l ˈɑ q s q o χ , l ˈɑ s k oː , l ˈɑ s k ɔː $λάσκω
+l e l e j kʷ m χ e j , l ˈe l e j kʷ m ɑ j , l ˈe l e j m m ɑ j $λέλειμμαι
+
+r ˈe ɡʷ o s , ˈe r e ɡʷ o s , ˈe r e b o s $ἔρεβος
+
