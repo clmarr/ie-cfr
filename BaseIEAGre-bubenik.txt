@@ -1,0 +1,98 @@
+$ baseline PIE to Ancient Attic Greek, based on Bubenik 2018 "40. The phonology of Greek" in Klein, Fritz and Joseph's Indo-European handbook.
+    $ rules per Bubenik section, iterated from a, b, etc onward alphabetically. 
+
+$ ASSUMPTIONS / CONVENTIONS: 
+$ /a/ treated as back. 
+$ h3 is labial in some way
+$ no laryngeals are anterior, all are obstruent
+$ h2 and h3 are back, not front
+$ h2 is not high, not labial in any way
+$ per tradition, Proto-Greek palatalization outcomes are long, even though this is implicit in 
+$ writing i̯ and u̯ as j and w to save effort 
+
+$ supplemented with Olander where there are omissions in Bubenik that he reasonably can be assumed to have implied [e.g. the merger of non-labial dorsals]
+
+$ C1 laryngeal vowel coloring / Bubenik 1c
+[+syl,-hi,-back] > [+back,-front,+round,+lab] / __ [-son,+cont,-ant,+lab]
+[+syl,-hi,-back] > [+back,-front,+round,+lab] / [-son,+cont,-ant,+lab] __
+[+syl,-hi,-back] > [+back,-front,+lo] / __ [-son,-ant,-hi]
+[+syl,-hi,-back] > [+back,-front,+lo] / [-son,-ant,-hi] __ 
+
+$ Bubenik 1d syllabification of glides and sonorants between word bounds and obstruents. Feeds 1a. 
+[+son] > [+syl] / # ((@)* [-son]) __ ([-son] (@)*) #
+
+̩$ Bubenik 1a.1 lengthening of vowel before laryngeal in #/C, followed by loss of laryngeal 1a.2
+[+syl] > [+long] / __ [-syl,-son,-ant,+cont] ([-syl] (@)*) #
+    $ Bubenik 1a.2 loss of closed syll post-nucleic laryngeal 
+[-syl,-son,-ant,+cont] > ∅ / __ ([-syl] (@)*) #
+
+$ Bubenik 1.1b = B15 boukolos rule , dissimilatory delabialization of labiodorsals to "plain" [he means back] velars next to u/u̯ 
+    $ Bubenik claims it was already present in PIE, contra the ordering in Olander. 
+[+back,-cont] > [-lab,-round] / [-cons,+hi,+round] __
+[+back,-cont] > [-lab,-round] / __ [-cons,+hi,+round]
+
+
+= Late Indo-European 
+
+
+$ Bubenik 1e = part of Olander B6 -- syllabification of laryngeals between asyllabics, via anaptyxis, Bubenik suggests. 
+    $ TODO but he is unclear about what happens if the asyllabics were 'resonants' [sonorants + glides] 
+            $ ^ -- i.e. does this or 1d take priority. 
+    $ placing this one later since the e/a/o different outcomes is rather Greek specific. 
+        $ anaptyxis would suggest another round of vowel coloring, alas...
+{x;xʷ;χ} > {e;o;ɑ}
+
+̩$ Bubenik 1.1a = Olander B10 devoicing of voiced aspirates. 
+    $Undone and deaspirated, or just deaspirated instead, in Macedonian. 
+[+sg] > [-voi]
+
+$ Bubenik 1.1d.1 debuccalizaion of *s
+    $ = Olander B16
+s > h / # ((@)* [+son]) __ [-cons]
+
+$Bubenik 1.2a.1 vocalization of syllabic nasals.
+    $  > ... > a in alphabetic Greek, but variously a or o in Mycenaean
+    $ = B12 Olander.
+    $ given Mycenaean, going with PGk ɑ̃ as in the Olander baseline cascade
+[+nas,+syl] > [-cor,-ant,-lab,+lo,+back,+long]
+
+= Proto-Greek 
+
+$ 1.1c -- note labiovelars and affricates ts dz reflecting palatalization directly attested in Mycenaean 
+
+$Bubenik 1.2d Change of *i̯ to *h
+$= Olander B30	 
+    $ Bubenik 1.2d -- occurs in initial position, but in some cases it becomes dj > ... > zd instead
+j > h / # __ 
+
+$ Bubenik 1.2b 
+    $= Olander B32	Vocalisation of syllabic liquids
+    $ per Olander website: made stressed if no stressed item in word yet
+    $ or/ro seen in Mycenaean, Arcado-Cypriot, Aeolic in some cases 
+    $ Bubenik has  "ar/ra" and "al/la" as the output, but going with Olander's rule as majority of examples show this. 
+[+syl,+cor] ∅ > [-syl] ˈɑ / # (([-syl])* [-prim])* ([-syl])* __ (([-syl])* [-prim])* ([-syl])* #
+[+syl,+cor] ∅ > [-syl] ɑ
+
+$ Bubenik 1.2a.2 -- merger of reflex of syllabic nasals with a, except in Mycenaean 
+    $ = Olander B33 denasalization of ã
+[+syl] > [-nas] 
+
+$ Bubenik 1.1d.2 loss of medial debucallized *s
+    $= Olander B38
+h > ∅ / @ __
+
+= Proto-Attic-Ionic 
+
+$ Bubenik 1.2c
+$ = Olander B41	Loss of word-initial and intervocalic digamma
+        $ based on Olander website -- double gamma ends up as w. 
+            $ DOES delete after j. -wj- becomes -jj- by this point. -VjwV- preserved. 
+    $ Bubenik -- notes lost in most Attic-Ionic, but survives in some varieties e.g. Pamphylian. 
+w > ∅ / # ((@)* [-cons]) __ [+syl]
+
+= Attic Greek 
+
+$ Bubenik 1.1d.3 psilosis
+    $ East Ionic and Lesbian already psilotic -- Attic not yet, Koine becomes so secondarily
+
+= Koine Greek 

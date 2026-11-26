@@ -7,7 +7,11 @@ $ h1 h2 h3 as x χ xʷ
 $ syllabic resonants m̥ n̥ l̥ r̥ as m̩ n̩ l̩ r̩
 $ front dorsals as palatal, labiodorsals as labiovelar, back dorsals as uvular, but cascade should be able to treat them as velar
     $ annotating in uvular theory here for maximum differentiation, e.g. avoiding potential data loss.
-$ Proto-Greek reflex of merged *ē and *ā, whence Doric ā and Attic ɛ̄, as *æː
+$ Proto-Greek reflex of *ā as æː, whence Doric ā, Ionic ɛ̄, usually Attic ɛ̄, Macedonan also has occasional eta ɛ̄ [keblɛ̄ for Attic kepʰalɛ̄] as *æː
+    $ annotating the reflex of original aː, but not secondary aː, as æː -- with æː having certain retraction rules to ɑː in Bubenik for Attic, but not Ionic. 
+        
+    $ TODO implement the above
+        $could just stick with ɑː, or aː .
 $ "CL" = Classical Latin, "OCS" = Old Church Slavonic, "APA" = Archaic Proto-Albanian, "MPA" = Middle Proto-Albanian, etc.
 $ Stems Olander gives unaccented are left unaccented.
 $ Proto-Greek affricates are long, as are results of palatalizations.
@@ -16,9 +20,9 @@ c r̩ d ˈi j e χ , k r̩ d ˈi j æː , k r ɑ d ˈi ɛː $κραδίη (Ionic
 ɟ ˈn̩ x t i s , ɡ ˈe n e t i s , ɡ ˈe n e s i s $γένεσις
 ɟ n̩ x t ˈo s , ɡ n æː t ˈo s , ɡ n ɛː t ˈo s $γνητός
 
-ɟʰ w ˈeː r , kʷʰ ˈæː r , tʰ ˈɛː r $θήρ
+ɟʰ w ˈeː r , kʷʰ ˈeː r , tʰ ˈɛː r $θήρ
 
-x j e x q , j æː k , h ɛː k $ἡκ- (stem)
+x j e x q , j eː k , h ɛː k $ἡκ- (stem)
 x ˈe bʰ e r e d , ˈe pʰ e r e , ˈe pʰ e r e $ἔφερε
 x ˈe s m i , h ˈe h m i , h ˈeː m i $ε̄̔͂μι
 x l e w dʰ s o , e l e w t s o , e l e w s o $ἐλευσο- (stem)
@@ -27,7 +31,7 @@ j u ɢ ˈo m , z d u ɡ ˈo n , z d u ɡ ˈo n $ζυγόν
 
 q e n t t ˈo s , k e s t ˈo s , k e s t ˈo s $κεστός
 q s ˈe n w o s , k s ˈe n w o s , k s ˈeː n o s $ξε̄͂νος
-q r u bʰ d eː n , k r ˈu b d æː n , k r ˈu b d ɛː n $κρύβδην
+q r u bʰ d eː n , k r ˈu b d eː n , k r ˈu b d ɛː n $κρύβδην
 
 χ e ɟ r ˈo e j , ˈɑ ɡ r oː j , ˈɑ ɡ r ɔː j $ἄγρῶι
 χ e ɟ r ˈo o m , ˈɑ ɡ r oː n , ˈɑ ɡ r ɔː n $ἄγρῶν
@@ -37,7 +41,7 @@ q r u bʰ d eː n , k r ˈu b d æː n , k r ˈu b d ɛː n $κρύβδην
 χ u ɢ s o n t m̩ , ˈɑ w k s o n t ɑ̃ , ˈɑ w k s o n t ɑ $αὔξοντα
 χ ˈe w s oː s , h ˈɑ w h oː s , h ˈe ɔː s $ἕως
 χ w l̩ q s , ˈɑ w l̩ k s , ˈɑ w l ɑ k s $αὔλαξ
-χ s t ˈeː r , ɑ s t ˈæː r , ɑ s t ˈɛː r $ἀστήρ
+χ s t ˈeː r , ɑ s t ˈeː r , ɑ s t ˈɛː r $ἀστήρ
 χ ˈr̩ t c o s , ˈɑ r k t o s , ˈɑ r k t o s $ἄρκτος
 
 ɡʷ i xʷ w ˈo s , z d oː w ˈo s , z d ɔː ˈo s $ζωός
@@ -60,7 +64,7 @@ m ˈe m l̩ xʷ q , m ˈe m b l oː k , m ˈe m b l ɔː k $μεμβλωκ- (ste
 m ˈe dʰ j o s , m ˈe t͡sː o s , m ˈe s o s $μέσος
 m ˈl̩ xʷ s c oː , b l ˈoː s k oː , b l ˈɔː s k ɔː $βλώσκω
 
-t i xʷ t ˈeː r m̩ , t s oː t ˈæː r ɑ̃ , s ɔː t ˈɛː r ɑ $σωτῆρα
+t i xʷ t ˈeː r m̩ , t s oː t ˈeː r ɑ̃ , s ɔː t ˈɛː r ɑ $σωτῆρα
 t j e gʷ o m χ e j , t͡sː ˈe ɡ u m ɑ j , s ˈe ɡ u m ɑ j $σέγυμαι
 t j e ɡʷ n ˈo s , t s e ɡʷ n ˈo s , s e m n ˈo s $σεμνός
 t w ˈr̩ c s , t͡sː r ˈa k s , s r ˈɑ k s $σράξ
@@ -71,12 +75,12 @@ t r ˈe j e s , t r ˈe j e s , t r ˈe e s $τρέες
 d xʷ t ˈi s , d ˈo t i s , d ˈo s i s $δόσις
 d l ˈe w q o s , ɡ l ˈe w k o s , ɡ l ˈe w k o s $γλεῦκος
 
-dʰ ˈu ɢ χ t eː r , tʰ u ɡ ˈɑ t æː r , tʰ u ɡ ˈɑ t ɛː r $θυγάτηρ
+dʰ ˈu ɢ χ t eː r , tʰ u ɡ ˈɑ t eː r , tʰ u ɡ ˈɑ t ɛː r $θυγάτηρ
 
 s ˈe ɟʰ oː , ˈe kʰ oː , ˈe kʰ ɔː $ἔχω
 s e ɟʰ t ˈo s , h e k t ˈo s , h e k t ˈo s $ἑκτός
 s e p t t ˈo s , h e p s t ˈo s , h e pʰ tʰ ˈo s $ἑφθός
-s eː m i , h æː m i , h ɛː m i $ἡμι- (prefix)
+s eː m i , h eː m i , h ɛː m i $ἡμι- (prefix)
 s ˈe m s , h ˈe n s , h ˈeː s $ε̄̔́ς
 s r ˈe w oː , h r ˈe w oː , r ˈe ɔː $ῥέω
 

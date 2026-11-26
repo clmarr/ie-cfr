@@ -72,7 +72,9 @@ $B11	Vocalisation of syllabic sonorants before vowel or *i̯
     $ upon investigation, the website applies this before w/u̯ too
 ∅ [+cons,+syl] > a [-syl] / __ [-cons,+son]
 
-$B12	Vocalisation of syllabic nasals. Based on website, produces ã. Here, this document uses ɑ̃. 
+$B12	Vocalisation of syllabic nasals. 
+    $ On Olander's website, produces ã. 
+        $ Here, this document uses ɑ̃. 
 [+nas,+syl] > [-cor,-ant,-lab,+lo,+back,+long]
 
 $B13	Change of word-final *m to *n
@@ -86,7 +88,8 @@ $B14	Cowgill’s law
 
 $B15	βουκόλος law. Present in Indo-European itself per Bubenik 1.1a "Adjacent to u labiovelars had undergone dissimilation to plain velars already
 in Proto-Indo-European."
-[-cont,+back] > [-lab,-round] / __ [-cons,+hi,+round]
+[+back,-cont] > [-lab,-round] / [-cons,+hi,+round] __
+[+back,-cont] > [-lab,-round] / __ [-cons,+hi,+round]
 
 $B16	Change of *s to *h
     $ happens except before an obstruent consonant or word-finally
@@ -100,7 +103,10 @@ $B17	Voicing and aspiration assimilation of stops. Regressive.
 $B18	Assibilation of dental stops before glides
     $dya goes to dza, same outcome as second/"main" palatalization -- treat as d͡ʒ, as it is +front
     $based on website, twa > tsa too, but not dwa or thwa? 
+        $ B18a tw > tj 
+            $ Bubenik p648 has this as much moer complicated, with dialects differing in outcomes
 [-syl,+hi,+round,-cons] > [-round,-lab,+front,-back] / t __ 
+        $ B18b actual palatalization
 [-cont,+cor,dvoi] [-syl,-cons,+front] > [+delrel,+strid,-sg,dfront,-dant,+long] ∅
 
 $B19	Insertion of epenthetic consonants
@@ -153,7 +159,8 @@ $B29	Law of limitation: Proto-Greek.
 = Proto-Greek 
 
 $B30	Change of *i̯ to *h
-    $ TODO formulate-- website doesn't seem to simply be doing this. 
+    $ Bubenik 1.2d -- occurs in initial position, but in some cases it becomes dj > ... > zd instead
+j > h / # __ 
 
 $B31	Loss of *s between stops. Website only does this between voiceless stops. 
     $ B31.a -- website is aspirating stops when they are heteroorganic in this rule. 
@@ -164,7 +171,7 @@ s > ∅ / [-cont,+sg] __ [-cont,+sg]
 
 $B32	Vocalisation of syllabic liquids
     $ per website: made stressed if no stressed item in word yet
-[+syl,+cor] ∅ > [-syl] ˈɑ / __ (([-syl])* [-prim])* ([-syl])* #
+[+syl,+cor] ∅ > [-syl] ˈɑ / # (([-syl])* [-prim])* ([-syl])* __ (([-syl])* [-prim])* ([-syl])* #
 [+syl,+cor] ∅ > [-syl] ɑ
 
 $B33	Denasalisation of *ã
@@ -198,7 +205,9 @@ $B40	Late vowel contractions
     $TODO formulate 
 
 $B41	Loss of word-initial and intervocalic digamma
-        $ based on website -- double gamma ends up as w.  DOES delete after j. -wj- becomes -jj- by this point. -VjwV- preserved. 
+        $ based on Olander website -- double gamma ends up as w. 
+            $ DOES delete after j. -wj- becomes -jj- by this point. -VjwV- preserved. 
+    $ Bubenik -- notes lost in most Attic-Ionic, but survives in some varieties e.g. Pamphylian. 
 w > ∅ / # ((@)* [-cons]) __ [+syl]
 
 $B42	Depalatalisation of sonorants
